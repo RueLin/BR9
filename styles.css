@@ -1,0 +1,11 @@
+.showtime-btn {
+margin: 5px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+#container {
+    display: grid;
+    place-content: center; /* 同時水平和垂直置中 */
+    height: 100vh; /* 讓容器高度佔滿視窗 */
+}
