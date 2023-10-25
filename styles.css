@@ -6,6 +6,9 @@ cursor: pointer;
 }
 #container {
     display: grid;
-    place-content: center; /* 同時水平和垂直置中 */
+    justify-items: center; /* 水平置中 */
     height: 100vh; /* 讓容器高度佔滿視窗 */
+    grid-gap: 10px; /* 元素之間的間距 */
+    grid-template-columns: 1fr; /* 單一列 */
+    align-content: start; /* 將元素垂直置於容器頂部 */
 }
